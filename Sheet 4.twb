@@ -1,0 +1,1308 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20262.26.0603.1643                               -->
+<workbook original-version='18.1' source-build='2026.2.0 (20262.26.0603.1643)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (India’s Agricultural Crop Production Analysis(1997-2021))' inline='true' name='federated.1mwzod00lpxu1g14l6hvq1q14y5p' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='India’s Agricultural Crop Production Analysis(1997-2021)' name='excel-direct.0byeof61az5b3k11y66e71wdhdc2'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/rakes/Downloads/India’s Agricultural Crop Production Analysis(1997-2021).xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0byeof61az5b3k11y66e71wdhdc2' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:J10001:no:A1:J10001:0' header='yes' outcome='2'>
+            <column datatype='string' name='State' ordinal='0' />
+            <column datatype='string' name='District' ordinal='1' />
+            <column datatype='string' name='Crop' ordinal='2' />
+            <column datatype='string' name='Year' ordinal='3' />
+            <column datatype='string' name='season' ordinal='4' />
+            <column datatype='real' name='Area' ordinal='5' />
+            <column datatype='string' name='Area Units' ordinal='6' />
+            <column datatype='real' name='Production' ordinal='7' />
+            <column datatype='string' name='Production Units' ordinal='8' />
+            <column datatype='real' name='Production Units 1' ordinal='9' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:J10001:no:A1:J10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_C62610F2BEF64CA58F65F180AB16DEBD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>District</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[District]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>District</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_C62610F2BEF64CA58F65F180AB16DEBD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crop</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Crop]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Crop</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_C62610F2BEF64CA58F65F180AB16DEBD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_C62610F2BEF64CA58F65F180AB16DEBD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>season</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[season]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>season</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_C62610F2BEF64CA58F65F180AB16DEBD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Area</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Area]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Area</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_C62610F2BEF64CA58F65F180AB16DEBD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Area Units</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Area Units]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Area Units</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_C62610F2BEF64CA58F65F180AB16DEBD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Production</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Production]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Production</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_C62610F2BEF64CA58F65F180AB16DEBD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Production Units</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Production Units]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Production Units</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_C62610F2BEF64CA58F65F180AB16DEBD]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Production Units 1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Production Units 1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Production Units 1</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_C62610F2BEF64CA58F65F180AB16DEBD]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_C62610F2BEF64CA58F65F180AB16DEBD]' role='measure' type='quantitative' />
+      <column caption='Season' datatype='string' name='[season]' role='dimension' type='nominal' />
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/rakes/AppData/Local/Temp/TableauTemp/#TableauTemp_04x87uf1vwttfy18lkqvr02hpbn3.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/03/2026 01:41:38 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>State</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[State]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>State</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>31</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>District</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[District]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>District</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2152</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Crop</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Crop]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Crop</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>54</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Year</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Year</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>24</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>season</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[season]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>season</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Area</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Area]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Area</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>22601</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Area Units</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Area Units]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Area Units</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Production</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Production]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Production</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>25853</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Production Units</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Production Units]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Production Units</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Production Units 1</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Production Units 1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Production Units 1</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>61199</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_C62610F2BEF64CA58F65F180AB16DEBD'>
+            <properties context=''>
+              <relation connection='excel-direct.0byeof61az5b3k11y66e71wdhdc2' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:J10001:no:A1:J10001:0' header='yes' outcome='2'>
+                  <column datatype='string' name='State' ordinal='0' />
+                  <column datatype='string' name='District' ordinal='1' />
+                  <column datatype='string' name='Crop' ordinal='2' />
+                  <column datatype='string' name='Year' ordinal='3' />
+                  <column datatype='string' name='season' ordinal='4' />
+                  <column datatype='real' name='Area' ordinal='5' />
+                  <column datatype='string' name='Area Units' ordinal='6' />
+                  <column datatype='real' name='Production' ordinal='7' />
+                  <column datatype='string' name='Production Units' ordinal='8' />
+                  <column datatype='real' name='Production Units 1' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='Sheet1 (India’s Agricultural Crop Production Analysis(1997-2021)) (2)' inline='true' name='federated.19jwu8k0udjic917yi5t71auynsp' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='India’s Agricultural Crop Production Analysis(1997-2021)' name='excel-direct.180humv03q1ey710ef33o0r5lmr8'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/rakes/Downloads/India’s Agricultural Crop Production Analysis(1997-2021).xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.180humv03q1ey710ef33o0r5lmr8' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:J10001:no:A1:J10001:0' header='yes' outcome='2'>
+            <column datatype='string' name='State' ordinal='0' />
+            <column datatype='string' name='District' ordinal='1' />
+            <column datatype='string' name='Crop' ordinal='2' />
+            <column datatype='string' name='Year' ordinal='3' />
+            <column datatype='string' name='season' ordinal='4' />
+            <column datatype='real' name='Area' ordinal='5' />
+            <column datatype='string' name='Area Units' ordinal='6' />
+            <column datatype='real' name='Production' ordinal='7' />
+            <column datatype='string' name='Production Units' ordinal='8' />
+            <column datatype='real' name='Production Units 1' ordinal='9' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:J10001:no:A1:J10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_0F204A94749B42BB874EA376267C30D3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>District</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[District]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>District</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_0F204A94749B42BB874EA376267C30D3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crop</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Crop]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Crop</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_0F204A94749B42BB874EA376267C30D3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_0F204A94749B42BB874EA376267C30D3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>season</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[season]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>season</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_0F204A94749B42BB874EA376267C30D3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Area</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Area]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Area</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_0F204A94749B42BB874EA376267C30D3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Area Units</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Area Units]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Area Units</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_0F204A94749B42BB874EA376267C30D3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Production</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Production]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Production</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_0F204A94749B42BB874EA376267C30D3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Production Units</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Production Units]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Production Units</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_0F204A94749B42BB874EA376267C30D3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Production Units 1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Production Units 1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Production Units 1</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Sheet1_0F204A94749B42BB874EA376267C30D3]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Yeild' datatype='real' name='[Production Units 1]' role='measure' type='quantitative' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_0F204A94749B42BB874EA376267C30D3]' role='measure' type='quantitative' />
+      <column caption='Season' datatype='string' name='[season]' role='dimension' type='nominal' />
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/rakes/AppData/Local/Temp/TableauTemp/#TableauTemp_17su7ip1vvxikd16gpkrq05owawz.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/03/2026 02:32:46 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>State</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[State]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>State</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>44</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Sheet1_0F204A94749B42BB874EA376267C30D3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>District</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[District]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>District</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2283</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Sheet1_0F204A94749B42BB874EA376267C30D3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Crop</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Crop]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Crop</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>54</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Sheet1_0F204A94749B42BB874EA376267C30D3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Year</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Year</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>24</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Sheet1_0F204A94749B42BB874EA376267C30D3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>season</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[season]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>season</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Sheet1_0F204A94749B42BB874EA376267C30D3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Area</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Area]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Area</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>19338</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_0F204A94749B42BB874EA376267C30D3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Area Units</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Area Units]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Area Units</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Sheet1_0F204A94749B42BB874EA376267C30D3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Production</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Production]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Production</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>21285</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_0F204A94749B42BB874EA376267C30D3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Production Units</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Production Units]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Production Units</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Sheet1_0F204A94749B42BB874EA376267C30D3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Production Units 1</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Production Units 1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Production Units 1</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>60978</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Sheet1_0F204A94749B42BB874EA376267C30D3]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_0F204A94749B42BB874EA376267C30D3'>
+            <properties context=''>
+              <relation connection='excel-direct.180humv03q1ey710ef33o0r5lmr8' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:J10001:no:A1:J10001:0' header='yes' outcome='2'>
+                  <column datatype='string' name='State' ordinal='0' />
+                  <column datatype='string' name='District' ordinal='1' />
+                  <column datatype='string' name='Crop' ordinal='2' />
+                  <column datatype='string' name='Year' ordinal='3' />
+                  <column datatype='string' name='season' ordinal='4' />
+                  <column datatype='real' name='Area' ordinal='5' />
+                  <column datatype='string' name='Area Units' ordinal='6' />
+                  <column datatype='real' name='Production' ordinal='7' />
+                  <column datatype='string' name='Production Units' ordinal='8' />
+                  <column datatype='real' name='Production Units 1' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Total Production&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (India’s Agricultural Crop Production Analysis(1997-2021)) (2)' name='federated.19jwu8k0udjic917yi5t71auynsp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19jwu8k0udjic917yi5t71auynsp'>
+            <column datatype='real' name='[Production]' role='measure' type='quantitative' />
+            <column-instance column='[Production]' derivation='Sum' name='[sum:Production:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.19jwu8k0udjic917yi5t71auynsp].[sum:Production:qk]' value='n#,##0,,.00M;-#,##0,,.00M' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.19jwu8k0udjic917yi5t71auynsp].[sum:Production:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{71AA9F30-1225-4885-99C6-B1011E984B5E}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Total Yield&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (India’s Agricultural Crop Production Analysis(1997-2021)) (2)' name='federated.19jwu8k0udjic917yi5t71auynsp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19jwu8k0udjic917yi5t71auynsp'>
+            <column caption='Yeild' datatype='real' name='[Production Units 1]' role='measure' type='quantitative' />
+            <column-instance column='[Production Units 1]' derivation='Sum' name='[sum:Production Units 1:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.19jwu8k0udjic917yi5t71auynsp].[sum:Production Units 1:qk]' value='n#,##0,,.00M;-#,##0,,.00M' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.19jwu8k0udjic917yi5t71auynsp].[sum:Production Units 1:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{36EB1EBB-4C33-416D-94B4-AAC555224D46}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>State wise Cultivated Area Comparision</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (India’s Agricultural Crop Production Analysis(1997-2021)) (2)' name='federated.19jwu8k0udjic917yi5t71auynsp' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.19jwu8k0udjic917yi5t71auynsp'>
+            <column datatype='real' name='[Area]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Crop]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Production]' role='measure' type='quantitative' />
+            <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='string' name='[Year]' role='dimension' type='nominal' />
+            <column-instance column='[Crop]' derivation='None' name='[none:Crop:nk]' pivot='key' type='nominal' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:nk]' pivot='key' type='nominal' />
+            <column-instance column='[season]' derivation='None' name='[none:season:nk]' pivot='key' type='nominal' />
+            <column caption='Season' datatype='string' name='[season]' role='dimension' type='nominal' />
+            <column-instance column='[Area]' derivation='Sum' name='[sum:Area:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.19jwu8k0udjic917yi5t71auynsp].[none:Crop:nk]'>
+            <groupfilter count='5' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([Production])' function='order' user:ui-marker='order'>
+                <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Arecanut&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Arhar/Tur&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Bajra&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Banana&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Barley&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Black pepper&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Cardamom&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Cashewnut&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Castor seed&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Coconut&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Coriander&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Cotton(lint)&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Cowpea(Lobia)&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Dry chillies&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Dry Ginger&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Garlic&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Ginger&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Gram&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Groundnut&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Guar seed&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Horse-gram&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Jowar&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Jute&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Khesari&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Linseed&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Maize&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Masoor&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Mesta&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Moong(Green Gram)&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Moth&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Niger seed&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Oilseeds total&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Onion&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Other Cereals&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Other Kharif pulses&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;other oilseeds&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Other Rabi pulses&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Other Summer Pulses&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Peas &amp; beans (Pulses)&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Potato&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Ragi&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Rapeseed &amp; Mustard&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Rapeseed &amp;Mustard&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Rice&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Safflower&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Sannhamp&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Sesamum&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Small millets&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Soyabean&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Sugarcane&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Sunflower&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Sweet potato&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Tapioca&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Tobacco&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Turmeric&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Urad&quot;' />
+                  <groupfilter function='member' level='[none:Crop:nk]' member='&quot;Wheat&quot;' />
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.19jwu8k0udjic917yi5t71auynsp].[none:State:nk]'>
+            <groupfilter count='5' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([Area])' function='order' user:ui-marker='order'>
+                <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Andaman and Nicobar Islands&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Andhra Pradesh&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Arunachal Pradesh&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Assam&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Bihar&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Chandigarh&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Chhattisgarh&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Dadra and Nagar Haveli&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Daman and Diu&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Delhi&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Goa&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Gujarat&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Haryana&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Himachal Pradesh&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Jammu and Kashmir&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Jharkhand&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Karnataka&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Kerala&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Madhya Pradesh&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Maharashtra&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Manipur&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Meghalaya&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Mizoram&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Nagaland&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Odisha&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Puducherry&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Punjab&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Rajasthan&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Sikkim&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Tamil Nadu&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Telangana&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Tripura&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Uttar Pradesh&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;Uttarakhand&quot;' />
+                  <groupfilter function='member' level='[none:State:nk]' member='&quot;West Bengal&quot;' />
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.19jwu8k0udjic917yi5t71auynsp].[none:Year:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Year:nk]' member='&quot;1997-98&quot;' />
+              <groupfilter function='member' level='[none:Year:nk]' member='&quot;1998-99&quot;' />
+              <groupfilter function='member' level='[none:Year:nk]' member='&quot;1999-00&quot;' />
+              <groupfilter function='member' level='[none:Year:nk]' member='&quot;2000-01&quot;' />
+              <groupfilter function='member' level='[none:Year:nk]' member='&quot;2001-02&quot;' />
+              <groupfilter function='member' level='[none:Year:nk]' member='&quot;2002-03&quot;' />
+              <groupfilter function='member' level='[none:Year:nk]' member='&quot;2003-04&quot;' />
+              <groupfilter function='member' level='[none:Year:nk]' member='&quot;2004-05&quot;' />
+              <groupfilter function='member' level='[none:Year:nk]' member='&quot;2005-06&quot;' />
+              <groupfilter function='member' level='[none:Year:nk]' member='&quot;2006-07&quot;' />
+              <groupfilter function='member' level='[none:Year:nk]' member='&quot;2007-08&quot;' />
+              <groupfilter function='member' level='[none:Year:nk]' member='&quot;2008-09&quot;' />
+              <groupfilter function='member' level='[none:Year:nk]' member='&quot;2009-10&quot;' />
+              <groupfilter function='member' level='[none:Year:nk]' member='&quot;2010-11&quot;' />
+              <groupfilter function='member' level='[none:Year:nk]' member='&quot;2011-12&quot;' />
+              <groupfilter function='member' level='[none:Year:nk]' member='&quot;2012-13&quot;' />
+              <groupfilter function='member' level='[none:Year:nk]' member='&quot;2013-14&quot;' />
+              <groupfilter function='member' level='[none:Year:nk]' member='&quot;2014-15&quot;' />
+              <groupfilter function='member' level='[none:Year:nk]' member='&quot;2015-16&quot;' />
+              <groupfilter function='member' level='[none:Year:nk]' member='&quot;2016-17&quot;' />
+              <groupfilter function='member' level='[none:Year:nk]' member='&quot;2017-18&quot;' />
+              <groupfilter function='member' level='[none:Year:nk]' member='&quot;2018-19&quot;' />
+              <groupfilter function='member' level='[none:Year:nk]' member='&quot;2019-20&quot;' />
+              <groupfilter function='member' level='[none:Year:nk]' member='&quot;2020-21&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.19jwu8k0udjic917yi5t71auynsp].[none:season:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:season:nk]' member='&quot;Autumn&quot;' />
+              <groupfilter function='member' level='[none:season:nk]' member='&quot;Kharif&quot;' />
+              <groupfilter function='member' level='[none:season:nk]' member='&quot;Rabi&quot;' />
+              <groupfilter function='member' level='[none:season:nk]' member='&quot;Summer&quot;' />
+              <groupfilter function='member' level='[none:season:nk]' member='&quot;Whole Year&quot;' />
+              <groupfilter function='member' level='[none:season:nk]' member='&quot;Winter&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.19jwu8k0udjic917yi5t71auynsp].[none:Year:nk]</column>
+            <column>[federated.19jwu8k0udjic917yi5t71auynsp].[none:season:nk]</column>
+            <column>[federated.19jwu8k0udjic917yi5t71auynsp].[none:Crop:nk]</column>
+            <column>[federated.19jwu8k0udjic917yi5t71auynsp].[none:State:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f5eddc' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.19jwu8k0udjic917yi5t71auynsp].[sum:Area:qk]</rows>
+        <cols>[federated.19jwu8k0udjic917yi5t71auynsp].[none:State:nk]</cols>
+      </table>
+      <simple-id uuid='{CFC92221-8035-4565-9A63-108CE83B8144}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='63'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{706F620D-D901-4D14-AB51-3F257FD1CA51}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{094829DA-7601-496E-87E0-3BB604F90049}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.19jwu8k0udjic917yi5t71auynsp].[none:Area Units:nk]</field>
+            <field>[federated.19jwu8k0udjic917yi5t71auynsp].[none:Crop:nk]</field>
+            <field>[federated.19jwu8k0udjic917yi5t71auynsp].[none:State:nk]</field>
+            <field>[federated.19jwu8k0udjic917yi5t71auynsp].[none:Year:nk]</field>
+            <field>[federated.19jwu8k0udjic917yi5t71auynsp].[none:season:nk]</field>
+            <field>[federated.19jwu8k0udjic917yi5t71auynsp].[sum:Production:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{5FCF5B18-DB54-4301-9414-4F7D04E57A57}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='25' name='Sheet 1' width='124'>
+      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
+      TkSuQmCC
+    </thumbnail>
+    <thumbnail height='25' name='Sheet 2' width='84'>
+      iVBORw0KGgoAAAANSUhEUgAAAFQAAAAZCAYAAACvrQlzAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAEB0lEQVRoge2ZbUxbVRjH/9OGKThAaJyLMUSybNmWJVuazMEWectqY7eCQj9YGDFzC0hC
+      ZmsaiCQVWHWRTFcFQzdiAm6TRCAkLGh5qeHiuoFzEUfUFcWVuC1hQKW1lyitPn5Y60rv7WUf
+      rrmLu7/kfOh5eZ5zfznnuTfpGiIiyIjGQ1Jv4P+GLFRkZKEiIwsVGVmoyMhCRUYWKjKyUJGR
+      hYqMLFRkZKEiIwsVGYV0qUPwftsDe1svxm4sAVBiR2k1Xi/eiTQFgAUX2uwjuM27dhtK6oqw
+      eZUM/gELyj6aQF5dH4zPRtIu4fqlLnR2fhHOCyh3FOPIa6XI2hDRsQBXmx0jtzejqKYE23gs
+      sVfOwuaYwRO5lTiyJ/3uAEnExIeFVHjUTqM/+ehPIgqyt+hySzlpG10UICIKsuSdm6O52DZ5
+      mspetJN7tQS+fjLpbWSrUZGFiep3NVHZO300+eudvBRk6dblFirfa6J+X2SSh9oNNWSz6cns
+      CPAED5DDrCebrYYM7Z4VI5IJ9UxPU5DTy5BldyO54q4K0vhxdZyHjMZHzjdLqOmbIDGWGKFx
+      +L5lf9Q8D7UbLMS47aQ3O4iTLeAgs95ObsbCESpZDc3IzOTWG78Pi8o0pMZbNNuD01/r8EpB
+      kmBs/5fvojW1FkbVvVY0Pzy/LOOx2LCbNNDOOnGBXdnNXnBiVqvBJp5I989LaXkKHcZm/H24
+      BFt5J4Rw5ZMzSDl8EFuFPPlH8V7bIzBWqe7pBbHs/xlDxypw5sljqFDFjmYgN/8mBplooyyY
+      QS9e0GTwxrsvhPqvdqD6JRPcxR04Wbg+zqRBfMrkwKBOFojE4uIHrVBUm5AteIjHcVKngzYv
+      C9m6RkwVNKPDvAt8kTM0OvicDP5VyjJw+vYhN842JauhRD5iLFrSNjppgVtMVxJwkFl9nMYF
+      503Q++rn6OU3rGS13m1VRSoqqrKS1dpL1+KuDdL0x4aoehiuoeFf892VVNk9T0QB6jdVUvd8
+      eICnhkr22eT/vAFvh0zoasjnPRnRTJ09Be+hVuwS3O0WvHquBwdjei/93gvXngpUZCUI5FEg
+      c+NGuJ0zALhXOV1zAIlHhzGbq8B5HMCJdG6ECBJd+QUMnZ+CrnR1mWBHcc6xHeX7+e/Y8Nj1
+      8HVMQLJSCWVMS1kLrE1RQqlMRgKA7wY+wzVvaGWQkBdDA2PIz+YU0Tsk5UCdNoKuzhGsU+dA
+      qJpIdELd+GFiEV/V6jDAGctDXZ8Rke/wme5TmNS8hYY4T1HbPIqe3c8IPmQ0Gx69ifpD+/Bj
+      cD227NyOp/6YxsWrN/B08Qk0PR8vShL2FqxDfT1QPyycaQ3Rg/k3cmjpNywu/QXgYSSmPo5E
+      kY7WAyv0v+IfPwB/qA/W2B8AAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 3' width='192'>
+      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
+      JLYk85/8BAAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
